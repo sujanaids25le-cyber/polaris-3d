@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# POLARIS data
+data/raw/
+data/processed/*.nc
+data/processed/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.venv/
